@@ -26,11 +26,11 @@ export default function Home() {
               <div className="text-xl font-bold text-white">
                 <i>Hi, my name is</i>
               </div>
-              <div className="text-5xl font-extrabold py-5 text-transparent bg-clip-text bg-gradient-to-r from-[#02d1fa] via-purple-500 to-[#fe348f]">
+              <div className="2xl:text-7xl text-5xl font-extrabold py-5 text-transparent bg-clip-text bg-gradient-to-r from-[#02d1fa] via-purple-500 to-[#fe348f]">
                 PRANTI RANI BANDA
               </div>
               <div className="text-xl font-bold pt-4 text-white">
-                I like coding and enjoy building websites. I have a keen
+                I like coding and enjoy building websites.<br className="hidden xl:block"/> I have a keen
                 interest in UI/UX design.
               </div>
             </div>
