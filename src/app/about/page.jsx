@@ -44,14 +44,6 @@ export default function Page() {
           </div>
         </div>
       </div>
-            {/* <div className="text-3xl">
-              <div className="bg-red-600 block sm:hidden">phn</div>
-              <div className="bg-green-600 hidden sm:block md:hidden">sm</div>
-              <div className="bg-blue-300 hidden md:block lg:hidden">md</div>
-              <div className="bg-yellow-600 hidden lg:block xl:hidden">lg</div>
-              <div className="bg-red-500 hidden xl:block 2xl:hidden">xl</div>
-              <div className="bg-green-600 hidden 2xl:block">2xl</div>
-            </div> */}
     </>
   );
 }

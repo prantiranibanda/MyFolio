@@ -23,8 +23,8 @@ export default function Home() {
 
           <div className="flex items-center">
             <div className="md:pl-12 md:pt-7 lg:pl-20 px-6">
-              <div className="text-xl font-bold text-white">
-                <i>Hi, my name is</i>
+              <div className="text-3xl font-bold text-[#fe348f]">
+                Hi, my name is
               </div>
               <div className="2xl:text-7xl text-5xl font-extrabold py-5 text-transparent bg-clip-text bg-gradient-to-r from-[#02d1fa] via-purple-500 to-[#fe348f]">
                 PRANTI RANI BANDA
@@ -42,15 +42,6 @@ export default function Home() {
             alt="Picture of the author"
           />
         </div>
-
-        {/* <div className="text-3xl">
-        <div className="bg-red-600 block sm:hidden">phn</div>
-        <div className="bg-green-600 hidden sm:block md:hidden">sm</div>
-        <div className="bg-blue-300 hidden md:block lg:hidden">md</div>
-        <div className="bg-yellow-600 hidden lg:block xl:hidden">lg</div>
-        <div className="bg-red-500 hidden xl:block 2xl:hidden">xl</div>
-        <div className="bg-green-600 hidden 2xl:block">2xl</div>
-      </div> */}
       </div>
     </>
   );
