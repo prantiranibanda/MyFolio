@@ -13,10 +13,10 @@ export default function Navbar({mode, toggleMode}) {
                 <div className="flex mr-3 sm:mr-6 text-[#ff5ca5] sm:hidden items-center" onClick={toggleExpand}><span className="material-symbols-outlined">{(isExpanded)?"expand_more":"menu"}</span></div>
                 <div className='font-bold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-cyan-300 via-purple-500 to-[#ff529f]'><Link href="/">PRB</Link></div>
                 <div className='hidden hover: text-md font-medium text-cyan-300 sm:flex ml-auto space-x-6'>
-                    <div><Link href="/">Home</Link></div>
-                    <div><Link href="/about">About</Link></div>
-                    <div><Link href="/skills">Skills</Link></div>
-                    <div><Link href="/contact">Contact</Link></div>
+                    <div className="hover:text-[#ff5ca5] transition ease-in-out"><Link href="/">Home</Link></div>
+                    <div className="hover:text-[#ff5ca5] transition ease-in-out"><Link href="/about">About</Link></div>
+                    <div className="hover:text-[#ff5ca5] transition ease-in-out"><Link href="/skills">Skills</Link></div>
+                    <div className="hover:text-[#ff5ca5] transition ease-in-out"><Link href="/contact">Contact</Link></div>
                 </div>
                 <div className="flex ml-auto items-center text-[#ff5ca5] sm:ml-6"><span className="material-symbols-outlined" onClick={toggleMode}>{(mode)?"dark_mode":"light_mode"}</span></div>
             </div>
