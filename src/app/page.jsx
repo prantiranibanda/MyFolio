@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import pic from "../../public/prog2.webp";
 import { useState } from "react";
 
+
 export default function Home() {
   const [isLightMode, setIsLightMode] = useState(false);
   const toggleMode = () => {
@@ -43,6 +44,7 @@ export default function Home() {
           />
         </div>
       </div>
+      
     </>
   );
 }
