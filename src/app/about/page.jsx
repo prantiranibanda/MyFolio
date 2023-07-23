@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
 import pic from "../../../public/programmer.webp";
+import Footer from "../components/Footer";
 
 export default function Page() {
   const [isLightMod, setIsLightMod] = useState(false);
@@ -44,6 +45,7 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }

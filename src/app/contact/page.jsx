@@ -2,6 +2,7 @@
 import Navbar from "../components/Navbar";
 import React from 'react';
 import { useState } from "react";
+import Footer from "../components/Footer";
 
 
 export default function Page() {
@@ -32,6 +33,7 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }

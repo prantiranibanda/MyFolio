@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import { useState } from "react";
 import React from "react";
 import Image from "next/image";
+import Footer from "../components/Footer";
 
 
 export default function Page() {
@@ -132,6 +133,7 @@ export default function Page() {
                 </div>
             </div>
         </div>
+        <Footer/>
     </>
   );
 }

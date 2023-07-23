@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import pic from "../../public/prog2.webp";
 import { useState } from "react";
 import Link from "next/link";
+import Footer from "./components/Footer";
 
 
 export default function Home() {
@@ -47,6 +48,7 @@ export default function Home() {
           />
         </div>
       </div>
+      <Footer/>
     </>
   );
 }
