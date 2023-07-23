@@ -22,10 +22,10 @@ export default function Navbar({mode, toggleMode}) {
             </div>
             {/* Menu */}
             <div className={`bg-slate-300 fixed w-full ${(isExpanded)?"block":"hidden"} opacity-95 sm:hidden`}>
-                <div className="py-3 border-t-[3px] border-[#062a3d] text-center text-lg bg-cyan-700 text-white hover:cursor-pointer hover:text-[#062a3d]"><Link href="/">Home</Link></div>
-                <div className="py-3 border-t-[3px] border-[#062a3d] text-center text-lg bg-cyan-700 text-white hover:cursor-pointer hover:text-[#062a3d]"><Link href="/about">About</Link></div>
-                <div className="py-3 border-t-[3px] border-[#062a3d] text-center text-lg bg-cyan-700 text-white hover:cursor-pointer hover:text-[#062a3d]"><Link href="/skills">Skills</Link></div>
-                <div className="py-3 border-y-[3px] border-[#062a3d] text-center text-lg bg-cyan-700 text-white hover:cursor-pointer hover:text-[#062a3d]"><Link href="/contact">Contact</Link></div>
+                <div className="py-3 border-t-[3px] border-[#062a3d] text-center text-lg font-medium transition ease-in-out bg-cyan-700 text-white hover:cursor-pointer hover:text-[#fe348f]"><Link href="/">Home</Link></div>
+                <div className="py-3 border-t-[3px] border-[#062a3d] text-center text-lg font-medium transition ease-in-out bg-cyan-700 text-white hover:cursor-pointer hover:text-[#fe348f]"><Link href="/about">About</Link></div>
+                <div className="py-3 border-t-[3px] border-[#062a3d] text-center text-lg font-medium transition ease-in-out bg-cyan-700 text-white hover:cursor-pointer hover:text-[#fe348f]"><Link href="/skills">Skills</Link></div>
+                <div className="py-3 border-y-[3px] border-[#062a3d] text-center text-lg font-medium transition ease-in-out bg-cyan-700 text-white hover:cursor-pointer hover:text-[#fe348f]"><Link href="/contact">Contact</Link></div>
             </div>
         </div>
   )
