@@ -3,6 +3,7 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import pic from "../../public/prog2.webp";
 import { useState } from "react";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -34,6 +35,8 @@ export default function Home() {
                 I like coding and enjoy building websites.<br className="hidden xl:block"/> I have a keen
                 interest in UI/UX design.
               </div>
+              <Link href="/contact"><button className="mt-5 mb-7 px-7 py-2 text-white font-medium border-2 border-cyan-500 text-lg bg-cyan-400 rounded-md hover:bg-[#45e0e6] hover:cursor-pointer">Contact Me</button>
+              </Link>
             </div>
           </div>
 
@@ -44,7 +47,6 @@ export default function Home() {
           />
         </div>
       </div>
-      
     </>
   );
 }
