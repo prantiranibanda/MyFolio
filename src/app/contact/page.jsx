@@ -16,7 +16,7 @@ export default function Page() {
         <Navbar mode={isLightMod} toggleMode={toggleMode} />
         <div className="min-h-screen flex justify-center items-center ">
           <div className="flex flex-col items-center">
-            <div className="text-4xl sm:text-5xl 2xl:text-6xl font-extrabold text-[#fe348f] my-11">Contact Me :)</div>
+            <div className="text-4xl sm:text-6xl 2xl:text-6xl font-bold text-[#2aaceb] my-11">Contact Me :)</div>
             <div className="p-6 rounded-md border border-cyan-500 bg-[#062a3d]">
               <div className="sm:flex sm:space-x-4 mb-4">
                 <div><input className="mb-4 w-96 sm:w-72 md:w-80 sm:mb-0 border-2 border-[#fe348f] rounded-lg p-3 bg-[#1a2b3b] text-white" placeholder="Your Name" type="text" name="" id="" /></div>

@@ -16,7 +16,7 @@ export default function Page() {
         <Navbar mode={isLightMod} toggleMode={toggleMode} />
         <div className="min-h-screen bg-[#143e53]">
             <div className="flex justify-center p-16">
-                <div className="font-extrabold text-5xl text-[#fe348f]">
+                <div className="font-bold text-5xl md:text-6xl text-[#2aaceb]">
                     Things I'm Learning :)
                 </div>
             </div>

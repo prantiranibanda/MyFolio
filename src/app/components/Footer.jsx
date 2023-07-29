@@ -8,16 +8,16 @@ export default function Footer() {
             {/* <div className="rounded-full p-3 bg-[#1A2F3C] flex items-center border-2 border-cyan-400">
                     <i className="devicon-facebook-plain rounded-lg text-pink-600" />
                 </div> */}
-            <div className="mx-3 hover:bg-cyan-500 hover:text-white rounded-full p-3 bg-[#1A2F3C] flex items-center border-2 border-cyan-400">
+            <div className="mx-3 hover:bg-[#2aaceb] hover:text-white rounded-full p-3 bg-[#1A2F3C] flex items-center border-2 border-cyan-400">
                     <i className="devicon-twitter-original text-xsm  rounded-lg text-[#fe348f]" />
                 </div>
-            <div className="mx-3 hover:bg-cyan-500 hover:text-white rounded-full p-3 bg-[#1A2F3C] flex items-center border-2 border-cyan-400">
+            <div className="mx-3 hover:bg-[#2aaceb] hover:text-white rounded-full p-3 bg-[#1A2F3C] flex items-center border-2 border-cyan-400">
                     <i className="devicon-github-original text-lg  rounded-lg text-[#fe348f]" />
                 </div>
-            <div className="mx-3 hover:bg-cyan-500 hover:text-white rounded-full p-3 bg-[#1A2F3C] flex items-center border-2 border-cyan-400">
+            <div className="mx-3 hover:bg-[#2aaceb] hover:text-white rounded-full p-3 bg-[#1A2F3C] flex items-center border-2 border-cyan-400">
                     <i className="devicon-linkedin-plain text-lg  rounded-lg text-[#fe348f]" />
                 </div>
-            <div className="mx-3 hover:bg-cyan-500 hover:text-white rounded-full p-3 bg-[#1A2F3C] flex items-center border-2 border-cyan-400">
+            <div className="mx-3 hover:bg-[#2aaceb] hover:text-white rounded-full p-3 bg-[#1A2F3C] flex items-center border-2 border-cyan-400">
                     <i className="devicon-facebook-plain text-lg  rounded-lg text-[#fe348f]" />
                 </div>
         </div>
