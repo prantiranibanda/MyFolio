@@ -12,7 +12,7 @@ export default function Page() {
   };
   return (
     <div>
-      <div className="min-h-screen bg-[#143e53]">
+      <div className={`min-h-screen ${(isLightMod)?"bg-[#c3c7e0]":"bg-[#143e53]"}`}>
         <Navbar mode={isLightMod} toggleMode={toggleMode} />
         <div className="min-h-screen flex justify-center items-center ">
           <div className="flex flex-col items-center">

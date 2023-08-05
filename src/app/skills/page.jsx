@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar";
 import { useState } from "react";
 import React from "react";
 import Image from "next/image";
-import Footer from "../components/Footer";
 
 
 export default function Page() {
@@ -14,7 +13,7 @@ export default function Page() {
     return (
     <>
         <Navbar mode={isLightMod} toggleMode={toggleMode} />
-        <div className="min-h-screen bg-[#143e53]">
+        <div className={`min-h-screen ${(isLightMod)?"bg-[#c3c7e0]":"bg-[#143e53]"}`}>
             <div className="flex justify-center p-16">
                 <div className="font-bold text-5xl md:text-6xl text-[#2aaceb]">
                     Things I'm Learning :)
@@ -133,7 +132,6 @@ export default function Page() {
                 </div>
             </div>
         </div>
-        <Footer/>
     </>
   );
 }

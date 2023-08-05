@@ -18,7 +18,7 @@ export default function Navbar({mode, toggleMode}) {
                     <div className="hover:text-[#ff5ca5] transition ease-in-out"><Link href="/skills">Skills</Link></div>
                     <div className="hover:text-[#ff5ca5] transition ease-in-out"><Link href="/contact">Contact</Link></div>
                 </div>
-                <div className="flex ml-auto items-center text-[#ff5ca5] sm:ml-6"><span className="material-symbols-outlined" onClick={toggleMode}>{(mode)?"dark_mode":"light_mode"}</span></div>
+                <button className="flex ml-auto items-center text-[#ff5ca5] sm:ml-6"><span className="material-symbols-outlined" onClick={toggleMode}>{(mode)?"dark_mode":"light_mode"}</span></button>
             </div>
             {/* Menu */}
             <div className={`bg-slate-300 fixed w-full ${(isExpanded)?"block":"hidden"} opacity-95 sm:hidden`}>
